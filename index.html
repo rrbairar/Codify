@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:500,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <!--TOP BANNER-->
+    <div class="hero_banner">
+      <nav class="nav">
+        <div>
+          <img src="images/Logo.png" alt="logo" class="nav_img"/>
+        </div>
+        <ol class="top_nav">
+          <a href="#history"><li>History</li></a>
+          <a href="#team"><li>Team</li></a>
+        </ul>
+      </nav>
+    </div>
+    <!--END-->
+    <!--NAV MIDDLE-->
+    <nav class="nav middle">
+      <div>
+        <img src="images/Logo.png" alt="logo" class="nav_img"/>
+        <img src="images/LOSANGELESMOUNTAINS.png" alt="logo text" class="nav_img_sec"/>
+      </div>
+      <ol class="top_nav">
+        <a href="#history"><li>History</li></a>
+        <a href="#team"><li>Team</li></a>
+      </ul>
+    </nav>
+    <!--END-->
+    <!--Slider-->
+    <div class="slider_container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators carousel_dots">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <ol class="carousel-indicators carousel_thumb">
+          <span data-target="#myCarousel" data-slide-to="0" class="active">
+            <img src="images/peak_1_bottom.png" alt="Peak">
+          </span>
+          <span data-target="#myCarousel" data-slide-to="1">
+            <img src="images/peak_2_bottom.png" alt="Peak">
+          </span>
+          <span data-target="#myCarousel" data-slide-to="2">
+            <img src="images/peak_1_bottom.png" alt="Peak">
+          </span>
+          <span data-target="#myCarousel" data-slide-to="3">
+            <img src="images/peak_2_bottom.png" alt="Peak">
+          </span>
+        </ol>
+        <div class="bg_thumb"></div>
+        <div class="content_box">
+          <h1 id="history"><span class="number">01.</span><span class="num_head">History</span></h1>
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+        </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/peak.png" alt="Peak" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="images/peak.png" alt="Peak" style="width:100%;">
+          </div>
+        
+          <div class="item">
+            <img src="images/peak.png" alt="Peak" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="images/peak.png" alt="Peak" style="width:100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--TEAM-->
+    <div class="content_box_2">
+      <h2 id="team" class="number"><span class="number">02.</span><span class="num_head">Climb</span></h2>
+      <span class="desc">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. </span>
+    </div>
+    <!--END-->
+    <!--TABS-->
+    <div class="third_container">
+      <ul class="nav nav-pills">
+        <li class="active"><a data-toggle="tab" href="#">MOUNTAIN 1</a></li>
+        <li><a data-toggle="tab" href="#">MOUNTAIN 2</a></li>
+      </ul>
+    </div>
+    <!--END-->
+    <!--ACCORDION MOBILE-->
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a data-toggle="collapse" href="#collapse1">
+            <h4 class="panel-title">
+              MOUNTAIN 1 <span class="pull-right icon" data-click-state="0">+</span>
+            </h4>
+          </a>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Demo</div>
+        </div>
+        <div class="panel-heading">
+          <a data-toggle="collapse" href="#collapse2">
+            <h4 class="panel-title">
+              MOUNTAIN 2 <span class="pull-right icon" data-click-state="0">+</span>
+            </h4>
+          </a>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">Demo</div>
+        </div>
+      </div>
+  </div>
+  <!--END-->
+  <!-- BOTTOM BANNER -->
+  <div class="bottom_banner">
+    <div class="schedule">
+      <p class="schedule_head">SCHEDULE</p>
+      <div class="schedule_time">
+        <p class="timings"><span>25 Nov 2016</span>   <span>Vestibulum viverra</span></p>
+        <p class="timings"><span>28 Nov 2016</span>   <span>Vestibulum viverra</span></p>
+        <p class="timings"><span>18 Dec 2016</span>   <span>Vestibulum viverra</span></p>
+        <p class="timings"><span>7 Jan 2017 </span>   <span>Vestibulum viverra</span></p>
+      </div>
+    </div>
+  </div>
+  <!--END-->
+  <!--FOOTER-->
+  <footer class="footer">
+    <span class="logo_name">
+      <img src="images/Logo.png" alt="logo" class="footer_logo"/>
+      <span class="com_name">LOSANGELES<br>MOUNTAINS</span>
+    </span>
+    <span class="copyright">COPYRIGHT 2016. ALL RIGHTS RESERVED.</span>
+  </footer>
+  <!--END-->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!-- Not creating external file for little js part -->
+<script>
+  $(document).ready(function(){
+    $('.panel-title').click(function(){
+      if($(this).attr('data-click-state') == 1){
+        $(this).attr('data-click-state', 0);
+        $(this).find('.icon').text("+");
+      }
+      else{
+        $(this).attr('data-click-state', 1);
+        $(this).find('.icon').text("-");
+      } 
+    })
+  })
+</script>
+</body>
+</html>
